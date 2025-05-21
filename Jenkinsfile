@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HOST_CREDS = credentials('dockerhost')
         DOCKER_HUB_CREDS = credentials('dockerhub-creds')
-        DOCKER_IMAGE_NAME = 'ewanedon/java-webapp-devops'
+        DOCKER_IMAGE_NAME = 'samuel/java-webapp-devops'
         DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}"
         DOCKER_HOST_IP = '18.227.52.15'
     }
